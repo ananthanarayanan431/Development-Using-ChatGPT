@@ -1,0 +1,37 @@
+/* Basic styling for the page body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Container to provide space above the button */
+.container {
+    margin-top: 20px; /* Add space above the button */
+}
+
+/* Styling for the rounded button */
+.rounded-button {
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 16px;
+    border: none;
+    border-radius: 0px; /* Rounded corners */
+    background-color: #24292d; /* Twitter blue color */
+    color: #fff; /* Text color */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth background color transition on hover */
+}
+
+/* Hover effect for the button */
+.rounded-button:hover {
+    background-color: #555b61; /* Darker blue on hover */
+}
+
+/* Click effect for the button */
+.rounded-button:active {
+    background-color: #1c1f21; /* Brighter color on click */
+}
