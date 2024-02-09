@@ -1,0 +1,64 @@
+/* Basic styling for the page body */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5; /* Subdued background color */
+}
+
+/* Styling for the hero section */
+.hero-section {
+    text-align: center;
+    max-width: 600px; /* Limiting the width for better readability */
+}
+
+
+.chair-image {
+    width: 250px; /* Adjust the size as needed */
+    height: 200px;
+    border-radius: 50%; /* Rounded shape */
+    margin-bottom: 20px; /* Space below the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Styling for the main heading */
+h1 {
+    color: #333; /* Dark text color */
+    margin-bottom: 10px; /* Space below the heading */
+    font-size: 58px;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Styling for the subheading */
+h2 {
+    color: #666; /* Slightly lighter text color */
+    font-size: 24px;
+    margin-bottom: 20px; /* More space below the subheading */
+}
+
+/* Styling for the description paragraph */
+p {
+    color: #777; /* Even lighter text color */
+    line-height: 1.4;
+    margin-bottom: 30px; /* Generous space below the paragraph */
+}
+
+/* Styling for the call to action button */
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff; /* White text color for better contrast */
+    background-color: #4caf50; /* Earthy green color for the button */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth background color transition on hover */
+}
+
+/* Hover effect for the button */
+.cta-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
