@@ -1,0 +1,17 @@
+## Prompt 1
+Can you generate a basic HTML and JavaScript example where clicking a button logs a “Welcome!” message?  Please add comments to help me understand the code.
+
+## Prompt 2
+Please update the code so that clicking the button displays a “Welcome!” message on the page.
+
+## Prompt 3
+Place the HTML and JavaScript in separate files, and style the page with CSS.
+
+## JS Review
+I am new to JavaScript. Please help me understand the basics of these concepts:
+ * Variables
+ * Strings
+ * document.getElementById()
+ * addEventListener()
+ * console.log()
+ * textContent 
